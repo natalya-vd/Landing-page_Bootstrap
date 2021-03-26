@@ -1,0 +1,50 @@
+.header__top {
+  height: 60vh;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(38.84%, #ffdde9), color-stop(87.12%, rgba(152, 195, 232, 0)));
+  background: linear-gradient(0deg, #ffdde9 38.84%, rgba(152, 195, 232, 0) 87.12%);
+}
+
+.img_line1 {
+  background-image: url(img/line1.png);
+  position: relative;
+  z-index: 1;
+  top: 1px;
+  left: 0;
+  margin-top: -44px;
+  width: 100%;
+  height: 44px;
+}
+
+.img_line2 {
+  background-image: url(img/line2.png);
+  position: relative;
+  z-index: 1;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  margin-bottom: -43px;
+}
+
+.birthday,
+.childe {
+  background-color: #e8bfbf;
+}
+
+.btn-dark:hover {
+  background-color: #3b5b7b;
+  border-color: #3b5b7b;
+}
+
+.footer {
+  min-height: 70vh;
+  background-color: #7f5d69;
+}
+
+@media (min-width: 321px) and (max-width: 991px) {
+  .contacts_width {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
